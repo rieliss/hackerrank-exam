@@ -1,1 +1,1 @@
-"# hackerrank-exam" 
+# hackerrank-exam

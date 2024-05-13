@@ -2,7 +2,7 @@ Given an array of integers, calculate the ratios of its elements that are positi
 
 Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to 10^-4 are acceptable.
 
-Example
+### Example
 
 arr = [1,1,0,-1,-1]
 
@@ -15,12 +15,9 @@ Function Description
 Complete the plusMinus function in the editor below.
 
 plusMinus has the following parameter(s):
-
 int arr[n]: an array of integers
 Print
 Print the ratios of positive, negative and zero values in the array. Each value should be printed on a separate line with digits after the decimal. The function should not return a value.
-
-Input Format
 
 The first line contains an integer, , the size of the array.
 The second line contains space-separated integers that describe arr[n] .
@@ -34,17 +31,17 @@ Print the following lines, each to decimals:
 3. proportion of zeros
    Sample Input
 
-## STDIN
+### STDIN
 
 6
 -4 3 -9 0 4 1
 
-## Function
+### Function
 
 arr[] size n = 6
 arr = [-4, 3, -9, 0, 4, 1]
 
-## Sample Output
+### Sample Output
 
 0.500000
 0.333333
